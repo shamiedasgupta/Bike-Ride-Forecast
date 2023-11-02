@@ -116,7 +116,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1,test_si
 
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
